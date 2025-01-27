@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Participants</title>
+        <meta name="description" content="Liste des participants">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://localhost:8000/website/header/header.css">
+        <script src="http://localhost:8000/website/header/header.js"></script>
+
+        <link rel="stylesheet" href="./style.css">
+        <script src="http://localhost:8000/sqljs-wasm/sql-wasm.js"></script>
+        <script src="http://localhost:8000/website/connect.js"></script>
+        <script src="../helper.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <button onclick="history.back()">Retour</button>
+        <h1>Liste des participants</h1>
+        <form id="athleteForm">
+            <label for="sexSelect">Sexe:</label>
+
+            <select id="sexSelect" name="sex"></select>
+    
+            <label for="nationaliteSelect">Nationalité:</label>
+
+            <select id="nationaliteSelect" name="nationalite"></select>
+
+            <label for="paralympicSelect">Paralympique:</label>
+
+            <select id="paralympicSelect" name="paralympic"></select>
+    
+            <button id="bouttonR" >Afficher les résultats</button>
+        </form>
+        <table id="liaison_bd"></table>
+    </body>
+</html>

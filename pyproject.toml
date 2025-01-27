@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sae-bd"
+version = "0.1.0"
+description = "SAE base de donnée: JO 2024"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.3"
+bs4 = "^0.0.2"
+lxml = "^5.1.0"
+aiolimiter = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

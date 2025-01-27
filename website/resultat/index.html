@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Résultat</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://localhost:8000/website/header/header.css">
+        <script src="http://localhost:8000/website/header/header.js"></script>
+
+        <script src="http://localhost:8000/sqljs-wasm/sql-wasm.js"></script>
+        <script src="http://localhost:8000/website/connect.js"></script>
+        <script src="../helper.js"></script>
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <button onclick="history.back()">Retour</button>
+        <h1>Résultats Olympiques 2024</h1>
+    
+        <form id="sportForm">
+            <label for="sportSelect">Choisir un sport :</label>
+
+            <select id="sportSelect" name="sport"></select>
+    
+            <label for="categorySelect">Choisir une catégorie :</label>
+
+            <select id="categorySelect" name="category"></select>
+    
+            <button id="bouttonR" >Afficher les résultats</button>
+        </form>
+    
+        <table id="results"></table>
+    
+        <footer>
+            <p><strong> Grégory - Baptiste - Dylan - Julien - Théo </strong></p>
+        </footer>
+    </body>
+
+</html>

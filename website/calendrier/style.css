@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0072bb;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #005088;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #005088;
+    color: white;
+    border-radius: 5px;
+}
+
+form select, form button {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #0072bb;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005088;
+}
+
+button {
+    background-color: #0072bb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #005088;
+}
